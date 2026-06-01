@@ -1,0 +1,8 @@
+streamlit
+google-genai
+gtts
+pandas
+matplotlib
+reportlab
+PyPDF2
+python-dotenv
