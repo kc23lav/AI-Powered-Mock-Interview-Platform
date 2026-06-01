@@ -206,7 +206,7 @@ This platform creates a personalized interview experience by combining resume an
 
 ## 🎥 Demo Video
 
-https://drive.google.com/https://drive.google.com/file/d/15IkmR-bFAbgL96ljoDQEbuWgUo-ajRby/view?usp=sharing
+https://drive.google.com/file/d/15IkmR-bFAbgL96ljoDQEbuWgUo-ajRby/view?usp=sharing
 
 
 ## 👩‍💻 Author
