@@ -280,6 +280,10 @@ This project delivers a personalized interview preparation experience by integra
 
 ---
 
+## Live Demo
+
+https://ai-powered-mock-interview-platform-wgveeswkg2auoayxvtjappq.streamlit.app
+
 ## 👩‍💻 Author
 
 **Lavanya Tyagi**
