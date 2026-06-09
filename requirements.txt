@@ -10,3 +10,4 @@ sentence-transformers
 torch
 scikit-learn
 numpy
+streamlit-mic-recorder
