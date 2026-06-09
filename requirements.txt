@@ -8,6 +8,7 @@ PyPDF2
 python-dotenv
 sentence-transformers
 torch
+torchvision
 scikit-learn
 numpy
 streamlit-mic-recorder
