@@ -6,3 +6,7 @@ matplotlib
 reportlab
 PyPDF2
 python-dotenv
+sentence-transformers
+torch
+scikit-learn
+numpy
