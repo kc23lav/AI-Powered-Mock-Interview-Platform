@@ -1,164 +1,232 @@
 # 🎤 AI-Powered Mock Interview Platform
 
-An AI-powered interview preparation platform that analyzes a candidate's resume, compares it with a target job description, generates personalized interview questions, evaluates answers using Google Gemini AI, and provides a detailed readiness report with analytics and PDF export.
+An intelligent interview preparation platform that combines resume analysis, ATS matching, AI-generated interview questions, voice-based interactions, answer evaluation, and performance analytics to help candidates assess and improve their interview readiness.
 
 ---
 
-## 🚀 Features
+## 🚀 Overview
 
-### 📄 Resume Analysis
-- Upload Resume (PDF)
-- Extract Resume Content
-- Resume Preview
-- Skill Extraction
+Preparing for interviews often involves fragmented tools for resume screening, mock interviews, and performance evaluation. This platform brings everything together into a single AI-powered experience.
 
-### 💼 Job Description Analysis
-- Paste Target Job Description
-- Resume Match Score Calculation
-- Matched Skills Detection
-- Missing Skills Identification
-- Personalized Improvement Recommendations
+The system analyzes a candidate's resume, compares it against a target job description, generates personalized interview questions, evaluates responses using AI, and provides detailed feedback with downloadable performance reports.
 
-### 🤖 AI-Powered Interview
-- Dynamic Question Generation
-- Resume-Based Questions
-- Job Description-Based Questions
-- Technical Interview Simulation
+---
+
+## ✨ Key Features
+
+### 📄 Resume Intelligence
+
+* Resume Parsing (PDF)
+* Automatic Skill Extraction
+* Resume Preview
+* Resume Content Analysis
+
+### 🎯 ATS & Job Description Matching
+
+* ATS Compatibility Scoring
+* Semantic Resume Matching
+* Matched Skills Detection
+* Missing Skills Identification
+* AI-Powered Resume Improvement Suggestions
+
+### 🤖 Personalized AI Interviews
+
+* Resume-Based Question Generation
+* Job Description-Based Questions
+* Technical Interview Simulation
+* Dynamic Interview Flow
+* Personalized Questioning Strategy
 
 ### 🎙 Voice Interview Mode
-- Text-to-Speech Question Playback
-- Real Interview Experience
-- Accessibility Support
 
-### 📝 AI Answer Evaluation
-- Question-wise Scoring
-- Detailed Feedback
-- Strengths Analysis
-- Weakness Analysis
-- Improvement Suggestions
+* Text-to-Speech Question Delivery
+* Interactive Interview Experience
+* Accessibility Support
+
+### 🧠 AI Answer Evaluation
+
+* Technical Accuracy Assessment
+* Communication Evaluation
+* Problem-Solving Analysis
+* Confidence Scoring
+* Detailed AI Feedback
 
 ### 📊 Analytics Dashboard
-- Question-wise Performance Table
-- Average Interview Score
-- Performance Visualization
-- Readiness Assessment
 
-### 📄 PDF Report Generation
-- Overall Readiness Score
-- Strengths & Weaknesses
-- Recommendations
-- Performance Chart
-- Downloadable Interview Report
+* Interview History Tracking
+* Question-Wise Performance Analysis
+* Overall Interview Score
+* Hiring Recommendation
+* Readiness Assessment
+
+### 📄 Professional PDF Reports
+
+* Interview Summary
+* Performance Metrics
+* Strengths & Weaknesses Analysis
+* Personalized Recommendations
+* Performance Visualization
 
 ---
 
-## 🏗 System Workflow
+## 🏗 System Architecture
 
 ```text
 Resume Upload
-      ↓
-Job Description Input
-      ↓
-Resume Match Analysis
-      ↓
+      │
+      ▼
+Resume Parsing
+      │
+      ▼
+ATS & Semantic Analysis
+      │
+      ▼
 AI Question Generation
-      ↓
-Voice-Based Interview
-      ↓
+      │
+      ▼
+Voice/Text Interview
+      │
+      ▼
 Answer Evaluation
-      ↓
+      │
+      ▼
 Performance Analytics
-      ↓
-Final PDF Report
+      │
+      ▼
+Final Assessment Report
+      │
+      ▼
+PDF Export
 ```
 
 ---
 
-## 🛠 Tech Stack
+## 🛠 Technology Stack
 
 ### Frontend
-- Streamlit
+
+* Streamlit
 
 ### Backend
-- Python
+
+* Python
 
 ### Artificial Intelligence
-- Google Gemini API
 
-### Libraries Used
-- Pandas
-- Matplotlib
-- ReportLab
-- gTTS
-- PyPDF2
-- python-dotenv
+* Google Gemini API
+
+### Database
+
+* SQLite
+
+### Data Processing
+
+* Pandas
+* NumPy
+
+### Visualization
+
+* Matplotlib
+
+### Document Processing
+
+* ReportLab
+* PyPDF2
+
+### Voice Processing
+
+* gTTS
+* Speech Recognition
 
 ---
 
 ## 📸 Screenshots
 
-### Login Page
-<img width="1253" height="809" alt="image" src="https://github.com/user-attachments/assets/e3225166-f699-4205-b2d3-c93186f1bb05" />
+### Login window
+
+<img width="1881" height="1029" alt="image" src="https://github.com/user-attachments/assets/eb1f637b-129c-4e8d-9635-b1cfbac48754" />
+
+### Dashboard
+
+<img width="1913" height="1023" alt="image" src="https://github.com/user-attachments/assets/85658f01-4d35-443b-97ee-9ff406ca3323" />
+
+<img width="1898" height="1026" alt="image" src="https://github.com/user-attachments/assets/375564c4-bdb2-40d4-97fe-4d52d0f82b59" />
 
 
 
 ### Resume Analysis
-<img width="1225" height="1006" alt="image" src="https://github.com/user-attachments/assets/ce5e7b18-676d-4a9f-9039-f62eea84db50" />
-<img width="1167" height="501" alt="image" src="https://github.com/user-attachments/assets/8e633c2a-9fff-49af-b0a1-4673319d88ed" />
-<img width="863" height="925" alt="image" src="https://github.com/user-attachments/assets/dca1a0e9-3966-450f-be83-83278c744a1f" />
+
+<img width="1885" height="1016" alt="image" src="https://github.com/user-attachments/assets/d711d89b-bec1-4c44-b988-088de82c4433" />
+
+
+### Interview Interface
+
+<img width="1893" height="1034" alt="image" src="https://github.com/user-attachments/assets/a1979b04-5322-4a99-9ef6-7140c7b7fce2" />
+
+
+### Performance Analytics
+
+<img width="1893" height="1034" alt="image" src="https://github.com/user-attachments/assets/7f452dd1-a437-4233-8ff5-c1fe9898c6b1" />
+
+<img width="1856" height="936" alt="image" src="https://github.com/user-attachments/assets/da1a93ed-e116-4905-9239-b131b996f30c" />
+
+<img width="1891" height="957" alt="image" src="https://github.com/user-attachments/assets/1baa0496-ac9d-4381-b406-cfd7aa504790" />
+
+<img width="1875" height="668" alt="image" src="https://github.com/user-attachments/assets/1e737c5c-39c4-41f3-af16-ff75f754aa7e" />
 
 
 
+### Final Assessment Report
 
-### AI Interview
-<img width="1191" height="578" alt="image" src="https://github.com/user-attachments/assets/dd830291-2327-4869-a034-4b4665e44e01" />
+<img width="937" height="944" alt="image" src="https://github.com/user-attachments/assets/e6cc5318-2bd2-4825-b007-9de7325e28e3" />
 
-
-### Performance Dashboard
-<img width="1202" height="962" alt="image" src="https://github.com/user-attachments/assets/164f6f2c-e152-4193-abb6-5398d2814e9e" />
-<img width="1224" height="979" alt="image" src="https://github.com/user-attachments/assets/5141e2a2-bbb4-4414-bc45-ecd636607e5e" />
+<img width="940" height="943" alt="image" src="https://github.com/user-attachments/assets/921af3ae-ffca-48c2-bd5d-a671c9269cd3" />
 
 
 
-### Final Report
-<img width="609" height="871" alt="image" src="https://github.com/user-attachments/assets/8b8994d4-eb29-45a8-bf95-25c822d4d7ca" />
-<img width="574" height="570" alt="image" src="https://github.com/user-attachments/assets/6cb3ba0a-04cd-4c0f-88ac-e579a5cf8677" />
-
-
+<img width="1894" height="1027" alt="image" src="https://github.com/user-attachments/assets/5dd53c48-9723-4f15-803c-61bf082973cc" />
 
 
 ---
 
-## 📈 Sample Output
+## 📈 Core Modules
 
-### Resume Match Analysis
-- Match Score
-- Matched Skills
-- Missing Skills
-- Recommendations
+| Module              | Functionality                        |
+| ------------------- | ------------------------------------ |
+| Resume Parser       | Extracts and analyzes resume content |
+| ATS Analyzer        | Calculates resume-job compatibility  |
+| Semantic Matcher    | Measures contextual alignment        |
+| Interview Engine    | Generates personalized questions     |
+| Voice Assistant     | Converts questions to speech         |
+| Answer Evaluator    | Evaluates candidate responses        |
+| Analytics Dashboard | Tracks performance metrics           |
+| PDF Generator       | Creates downloadable reports         |
 
-### Interview Evaluation
-- Question-wise Score
-- Detailed Feedback
-- Strengths
-- Weaknesses
+---
 
-### Final Readiness Report
-- Overall Readiness Score
-- Recommendations
-- Performance Analytics
+## 🎯 Sample Evaluation Metrics
+
+The platform evaluates candidates across multiple dimensions:
+
+* Technical Accuracy
+* Communication Skills
+* Problem Solving Ability
+* Confidence Level
+* Interview Readiness
 
 ---
 
 ## 🔮 Future Enhancements
 
-- Speech-to-Text Answer Submission
-- Webcam-Based Mock Interviews
-- ATS Resume Scoring
-- Multi-Round Interview Simulation
-- Behavioral Interview Analysis
-- Interview History Tracking
-- Recruiter Dashboard
+* Speech-to-Text Answer Submission
+* Webcam-Based Interviews
+* Behavioral Interview Analysis
+* Coding Interview Evaluation
+* Multi-Round Interview Simulation
+* Recruiter Dashboard
+* Company-Specific Interview Modes
+* Spring Boot Backend Migration
+* Cloud Deployment
 
 ---
 
@@ -170,7 +238,7 @@ Final PDF Report
 git clone https://github.com/kc23lav/AI-Powered-Mock-Interview-Platform.git
 ```
 
-### Move Into Project Directory
+### Navigate to Project
 
 ```bash
 cd AI-Powered-Mock-Interview-Platform
@@ -182,7 +250,9 @@ cd AI-Powered-Mock-Interview-Platform
 pip install -r requirements.txt
 ```
 
-### Create .env File
+### Configure Environment Variables
+
+Create a `.env` file:
 
 ```env
 GEMINI_API_KEY=YOUR_API_KEY
@@ -196,27 +266,28 @@ streamlit run app.py
 
 ---
 
-## 🎯 Problem Statement
+## 🎥 Demo Video
 
-Job seekers often struggle to assess whether they are interview-ready for a specific role. Existing platforms provide generic questions and limited feedback.
-
-This platform creates a personalized interview experience by combining resume analysis, job description matching, AI-generated questions, voice interaction, answer evaluation, analytics, and downloadable reporting.
+https://drive.google.com/file/d/1kFGnFER1hEhlo8zxsrTibSls0h3NacmF/view?usp=sharing
 
 ---
 
-## 🎥 Demo Video
+## 💡 Problem Statement
 
-https://drive.google.com/file/d/15IkmR-bFAbgL96ljoDQEbuWgUo-ajRby/view?usp=sharing
+Candidates often struggle to determine whether they are prepared for a specific role. Existing platforms typically provide generic interview questions and limited feedback.
 
+This project delivers a personalized interview preparation experience by integrating resume analysis, ATS matching, AI-driven interview generation, answer evaluation, analytics, and reporting into a unified workflow.
+
+---
 
 ## 👩‍💻 Author
 
-### Lavanya Tyagi
+**Lavanya Tyagi**
 
-B.Tech Student | Backend Development | Artificial Intelligence
+B.Tech Student | Java Backend Development | Artificial Intelligence
 
-Passionate about building AI-powered solutions that solve real-world problems through automation, analytics, and intelligent user experiences.
+Passionate about building intelligent software solutions that combine automation, analytics, and AI to solve real-world problems.
 
 ---
 
-## ⭐ If you found this project useful, consider giving it a star!
+⭐ If you found this project useful, consider giving it a star.
